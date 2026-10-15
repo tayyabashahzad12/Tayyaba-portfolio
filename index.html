@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayyaba Shahzad | Cyber Security Analyst</title>
+
+    <meta name="description" content="Tayyaba Shahzad - Cyber Security Analyst & Defensive Security Expert specializing in threat intelligence, defensive operations, and ethical hacking.">
+    <meta name="keywords" content="Tayyaba Shahzad, Cyber Security, Defensive Security, Ethical Hacker, SOC Operations, Vulnerability Assessment, Portfolio">
+    <meta name="author" content="Tayyaba Shahzad">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light">
+
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <canvas id="matrix-canvas"></canvas>
+
+    <header id="site-header">
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                <span class="logo-text">TAYYABA<span class="dot">.</span>SHAHZAD</span>
+            </a>
+
+            <nav id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" id="nav-home">HOME</a></li>
+                    <li><a href="#about" class="nav-link" id="nav-about">ABOUT</a></li>
+                    <li><a href="#skills" class="nav-link" id="nav-skills">SKILLS</a></li>
+                    <li><a href="#education" class="nav-link" id="nav-education">EDUCATION</a></li>
+                    <li><a href="#projects" class="nav-link" id="nav-projects">PROJECTS</a></li>
+                    <li><a href="#contact" class="nav-link" id="nav-contact">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-controls">
+                <button id="theme-toggle" aria-label="Toggle dark/light theme" class="control-btn">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+
+                <button id="mobile-menu-btn" aria-label="Open navigation menu" class="control-btn mobile-only">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content scroll-reveal">
+                    <div class="cyber-badge"><span class="pulse-dot"></span> SECURE SHELL ACTIVE</div>
+                    <h1 class="hero-title">
+                        <span class="accent-text-secondary">SYSTEM.INITIALIZE(</span><br>
+                        <span class="main-name">Tayyaba Shahzad</span><br>
+                        <span class="accent-text-secondary">);</span>
+                    </h1>
+                    <div class="typing-container">
+                        <span class="typing-prefix">> </span>
+                        <span id="typing-text"></span><span class="cursor">|</span>
+                    </div>
+                    <p class="hero-subtitle">
+                        Cyber Security Analyst | Defensive Security Expert. Specialized in building cyber resilience, threat analysis, and robust defense systems.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary" id="cta-work">
+                            <span class="btn-text">View My Work</span>
+                            <span class="btn-icon"><i class="fa-solid fa-terminal"></i></span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="cta-contact">
+                            <span class="btn-text">Contact Me</span>
+                            <span class="btn-icon"><i class="fa-solid fa-envelope-open-text"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-graphic scroll-reveal delay-200">
+                    <div class="cyber-radar-wrapper">
+                        <div class="radar-circle circle-1"></div>
+                        <div class="radar-circle circle-2"></div>
+                        <div class="radar-circle circle-3"></div>
+                        <div class="radar-sweep"></div>
+                        <div class="radar-core"><i class="fa-solid fa-user-shield"></i></div>
+                        <div class="radar-node node-1" style="top: 25%; left: 30%;"></div>
+                        <div class="radar-node node-2" style="top: 60%; left: 75%;"></div>
+                        <div class="radar-node node-3" style="top: 75%; left: 20%;"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrows">
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title"><span class="section-num">01.</span> ABOUT_ME</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-image-wrapper scroll-reveal">
+                        <div class="cyber-frame">
+                            <img src="assets/avatar.jpg"
+     alt="Tayyaba Shahzad Avatar"
+     class="profile-img"
+     onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Tayyaba+Shahzad&size=400&background=005fcc&color=fff&bold=true&font-size=0.33';">
+                            <div class="frame-corners">
+                                <div class="corner top-left"></div>
+                                <div class="corner top-right"></div>
+                                <div class="corner bottom-left"></div>
+                                <div class="corner bottom-right"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-details scroll-reveal delay-200">
+                        <p class="bio-text">
+                            I am Tayyaba Shahzad, currently pursuing a diploma in Cyber Security, on a mission to become a full-stack ethical hacker. Though my journey is just beginning, I blend relentless curiosity with modern defense tactics. Every line of code, every network packet is an opportunity to build resilience. I deliver integrity, precision, and relentless protection.
+                        </p>
+
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-id-card"></i> NAME:</span>
+                                <span class="info-value">Tayyaba Shahzad</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-envelope"></i> EMAIL:</span>
+                                <span class="info-value"><a href="mailto:tayyabashahzad2874@gmail.com" class="link-hover">tayyabashahzad2874@gmail.com</a></span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-location-dot"></i> FOCUS:</span>
+                                <span class="info-value">Defensive Security & Threat Hunting</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label"><i class="fa-solid fa-code"></i> STATUS:</span>
+                                <span class="info-value cyber-pulse">Active Training Mode</span>
+                            </div>
+                        </div>
+
+                        <div class="about-actions">
+                            <a href="#" class="btn btn-primary" id="download-cv-btn">
+                                <span class="btn-text">Download CV</span>
+                                <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <div class="social-links">
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram Profile">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title"><span class="section-num">02.</span> SKILLS_DATABASE</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skills-category-card scroll-reveal">
+                        <div class="card-header">
+                            <i class="fa-solid fa-code-branch category-icon"></i>
+                            <h3>Technical Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-c"></i> C Language</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-python"></i> Python</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-js"></i> JavaScript</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-brands fa-html5"></i> HTML & CSS</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category-card scroll-reveal delay-200">
+                        <div class="card-header">
+                            <i class="fa-solid fa-user-shield category-icon"></i>
+                            <h3>Security Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-network-wired"></i> SOC Operations</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-bug-slash"></i> Vulnerability Assessment</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-robot"></i> AI Agents</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fa-solid fa-comments"></i> AI Chatbots</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-progress="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title"><span class="section-num">03.</span> ACADEMIC_LOGS</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 - 2026</span>
+                            <div class="timeline-header-block">
+                                <h3 class="education-degree">Diploma in Cyber Security</h3>
+                                <span class="badge badge-pulse">STUDYING</span>
+                            </div>
+                            <h4 class="education-inst">Aptech Learning</h4>
+                            <p class="education-desc">
+                                Specialized training focusing on Defensive Security Operations, Vulnerability Analysis, Penetration Testing, and Incident Handling. Exploring modern integration of AI agents and chatbots in digital defense strategies.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item scroll-reveal delay-200">
+                        <div class="timeline-marker">
+                            <span class="marker-dot"></span>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2024</span>
+                            <div class="timeline-header-block">
+                                <h3 class="education-degree">Intermediate Computer Science</h3>
+                                <span class="badge badge-done">COMPLETED</span>
+                            </div>
+                            <h4 class="education-inst">Block M Degree College</h4>
+                            <p class="education-desc">
+                                Core studies in systems, logic design, databases, computer mathematics, and introductory programming languages. Established fundamental programming principles in C and structural design concepts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title"><span class="section-num">04.</span> SYSTEM_BUILDS</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card scroll-reveal">
+                        <div class="project-image-box">
+                            <img src="assets/dns-typo.png"
+                                 alt="TYPOSQUAT Project Preview"
+                                 class="project-img"
+                                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=500&fit=crop&q=80';">
+                            <div class="project-overlay">
+                                <div class="badge-lock"><i class="fa-solid fa-lock"></i> PRIVATE REPO</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-tag">DNS Threat Monitor</span>
+                                <span class="repo-badge"><i class="fa-solid fa-circle-dot"></i> LIVE</span>
+                            </div>
+                            <h3 class="project-title">TYPOSQUAT</h3>
+                            <p class="project-description">
+                                Real-time DNS monitoring platform that generates typosquat variations and performs async DNS lookups to identify active phishing domains targeting your brand. Features 6 mutation strategies and 35+ variations.
+                            </p>
+                            <div class="project-actions">
+                                <a href="https://dns-typo.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-project btn-visit">
+                                    <span>VISIT</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <button class="btn-project btn-private" aria-label="Private source code repository">
+                                    <span>PRIVATE</span> <i class="fa-solid fa-lock"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card scroll-reveal delay-200">
+                        <div class="project-image-box">
+                            <img src="assets/cyber-shield.png"
+                                 alt="Cyber Security Shield Project Preview"
+                                 class="project-img"
+                                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=500&fit=crop&q=80';">
+                            <div class="project-overlay">
+                                <div class="badge-lock"><i class="fa-solid fa-lock"></i> PRIVATE REPO</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-tag">Defense Intelligence</span>
+                                <span class="repo-badge"><i class="fa-solid fa-circle-dot"></i> LIVE</span>
+                            </div>
+                            <h3 class="project-title">CYBER SECURITY SHIELD</h3>
+                            <p class="project-description">
+                                Next-generation threat detection and network defense platform. Monitor global infrastructure, deploy adaptive security protocols, and visualize real-time threat landscapes with military-grade precision.
+                            </p>
+                            <div class="project-actions">
+                                <a href="https://cyber-security-psi-five.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-project btn-visit">
+                                    <span>VISIT</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <button class="btn-project btn-private" aria-label="Private source code repository">
+                                    <span>PRIVATE</span> <i class="fa-solid fa-lock"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card scroll-reveal delay-400">
+                        <div class="project-image-box">
+                            <img src="assets/skillswap.png"
+                                 alt="SkillSwap Project Preview"
+                                 class="project-img"
+                                 onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop&q=80';">
+                            <div class="project-overlay">
+                                <div class="badge-lock"><i class="fa-solid fa-lock"></i> PRIVATE REPO</div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span class="project-tag">Peer-to-Peer Learning</span>
+                                <span class="repo-badge"><i class="fa-solid fa-circle-dot"></i> LIVE</span>
+                            </div>
+                            <h3 class="project-title">SkillSwap</h3>
+                            <p class="project-description">
+                                A peer-to-peer student skill exchange platform that connects university students to trade knowledge. Features a dual-reciprocity match engine, slot bookings with Google Meet links, and gamification rewards.
+                            </p>
+                            <div class="project-actions">
+                                <a href="https://skillswap-ten-red.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-project btn-visit">
+                                    <span>VISIT</span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <button class="btn-project btn-private" aria-label="Private source code repository">
+                                    <span>PRIVATE</span> <i class="fa-solid fa-lock"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title"><span class="section-num">05.</span> TRANSMIT_MESSAGE</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card scroll-reveal">
+                        <h3 class="contact-sub-title">SECURE CONTACT MODULE</h3>
+                        <p class="contact-instruction">Enter your credentials and payload text below. All communications are logged securely.</p>
+
+                        <form id="secure-contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <div class="input-wrapper">
+                                    <span class="input-icon"><i class="fa-solid fa-user-tag"></i></span>
+                                    <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                                    <span class="focus-border"></span>
+                                </div>
+                                <span class="error-msg" id="name-error">Name value required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <div class="input-wrapper">
+                                    <span class="input-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <input type="email" id="form-email" name="email" required placeholder="john@example.com">
+                                    <span class="focus-border"></span>
+                                </div>
+                                <span class="error-msg" id="email-error">Valid email address required</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message Payload</label>
+                                <div class="input-wrapper">
+                                    <span class="input-icon textarea-icon"><i class="fa-solid fa-terminal"></i></span>
+                                    <textarea id="form-message" name="message" rows="5" required placeholder="Enter message payload..."></textarea>
+                                    <span class="focus-border"></span>
+                                </div>
+                                <span class="error-msg" id="message-error">Message payload required</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit" id="btn-submit-form">
+                                <span class="btn-text">SEND MESSAGE</span>
+                                <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-card scroll-reveal delay-200">
+                        <div class="info-card-header">
+                            <span class="cmd-prompt">root@tayyaba:~$</span> cat connection_details.txt
+                        </div>
+                        <div class="info-card-body">
+                            <p>For urgent secure escalation or debugging inquiries, please establish a connection using the following pathways:</p>
+
+                            <div class="direct-contact-item">
+                                <div class="direct-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                                <div class="direct-details">
+                                    <span class="direct-label">DIRECT EMAIL (PRIMARY)</span>
+                                    <a href="mailto:tayyabashahzad2874@gmail.com" class="direct-link">tayyabashahzad2874@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="status-grid">
+                                <div class="status-indicator-box">
+                                    <span class="status-led led-green"></span>
+                                    <span class="status-text">Defensive Shields: Nominal</span>
+                                </div>
+                                <div class="status-indicator-box">
+                                    <span class="status-led led-green"></span>
+                                    <span class="status-text">Server Status: Active</span>
+                                </div>
+                                <div class="status-indicator-box">
+                                    <span class="status-led led-cyan"></span>
+                                    <span class="status-text">Incident Response: Ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="terminal-footer">
+                            <p>Connection: TLS_AES_256_GCM_SHA384 | Status: SECURE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="site-footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                    <span class="logo-text">TAYYABA<span class="dot">.</span>SHAHZAD</span>
+                </a>
+                <p class="footer-desc">Building resilient infrastructure and protecting assets against evolving threat vectors.</p>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-socials">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2026 Tayyaba Shahzad. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
